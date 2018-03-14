@@ -1,0 +1,627 @@
+
+IEEEexample.bib
+V1.13 (2008/09/30)
+Copyright (c) 2002-2008 by Michael Shell
+See: http://www.michaelshell.org/
+for current contact information.
+
+This is an example BibTeX database for the official IEEEtran.bst
+BibTeX style file.
+
+Some entries call strings that are defined in the IEEEabrv.bib file.
+Therefore, IEEEabrv.bib should be loaded prior to this file.
+Usage:
+
+\bibliographystyle{./IEEEtran}
+\bibliography{./IEEEabrv,./IEEEexample}
+
+
+Support sites:
+http://www.michaelshell.org/tex/ieeetran/
+http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+and/or
+http://www.ieee.org/
+
+*************************************************************************
+Legal Notice:
+This code is offered as-is without any warranty either expressed or
+implied; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE!
+User assumes all risk.
+In no event shall IEEE or any contributor to this code be liable for
+any damages or losses, including, but not limited to, incidental,
+consequential, or any other damages, resulting from the use or misuse
+of any information contained here.
+
+All comments are the opinions of their respective authors and are not
+necessarily endorsed by the IEEE.
+
+This work is distributed under the LaTeX Project Public License (LPPL)
+( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+distributed and modified. A copy of the LPPL, version 1.3, is included
+in the base LaTeX documentation of all distributions of LaTeX released
+2003/12/01 or later.
+Retain all contribution notices and credits.
+** Modified files should be clearly indicated as such, including  **
+** renaming them and changing author support contact information. **
+
+File list of work: IEEEabrv.bib, IEEEfull.bib, IEEEexample.bib,
+                   IEEEtran.bst, IEEEtranS.bst, IEEEtranSA.bst,
+                   IEEEtranN.bst, IEEEtranSN.bst, IEEEtran_bst_HOWTO.pdf
+*************************************************************************
+
+
+Note that, because the example references were taken from actual IEEE
+publications, these examples do not always contain the full amount
+of information that may be desirable (for use with other BibTeX styles).
+In particular, full names (not abbreviated with initials) should be
+entered whenever possible as some (non-IEEE) bibliography styles use
+full names. IEEEtran.bst will automatically abbreviate when it encounters
+full names.
+
+
+The three most common and typical types of references used in
+IEEE publications:
+
+an article in a journal
+Note the use of the IEEE_J_EDL string, defined in the IEEEabrv.bib file,
+for the journal name. IEEEtran.bst defines the BibTeX standard three
+letter month codes per IEEE style.
+From the June 2002 issue of "IEEE Transactions on Electron Devices",
+page 996, reference #16.
+@article{IEEEexample:article_typical,
+  author        = "S. Zhang and C. Zhu and J. K. O. Sin and P. K. T. Mok",
+  title         = "A Novel Ultrathin Elevated Channel Low-temperature
+                   Poly-{Si} {TFT}",
+  journal       = IEEE_J_EDL,
+  volume        = "20",
+  month         = nov,
+  year          = "1999",
+  pages         = "569-571"
+}
+
+
+journal article using et al.
+The (five) authors are actually: F. Delorme, S. Slempkes, G. Alibert,
+B. Rose, J. Brandon
+The month (July) was not given here.
+From the September 1998 issue of "IEEE Journal on Selected Areas in
+Communications", page 1257, reference #28.
+@article{IEEEexample:articleetal,
+  author        = "F. Delorme and others",
+  title         = "Butt-jointed {DBR} Laser With 15 {nm} Tunability Grown
+                   in Three {MOVPE} Steps",
+  journal       = "Electron. Lett.",
+  volume        = "31",
+  number        = "15",
+  year          = "1995",
+  pages         = "1244-1245"
+}
+
+
+a paper in a conference proceedings
+"conference" can be used as an alias for "inproceedings"
+From the June 2002 issue of "Journal of Microelectromechanical Systems",
+page 205, reference #16.
+@inproceedings{IEEEexample:conf_typical,
+  author        = "R. K. Gupta and S. D. Senturia",
+  title         = "Pull-in Time Dynamics as a Measure of Absolute Pressure",
+  booktitle     = "Proc. {IEEE} International Workshop on
+                   Microelectromechanical Systems ({MEMS}'97)",
+  address       = "Nagoya, Japan",
+  month         = jan,
+  year          = "1997",
+  pages         = "290-294"
+}
+
+
+a book
+From the May 2002 issue of "IEEE Transactions on Magnetics",
+page 1466, reference #4.
+@book{IEEEexample:book_typical,
+  author        = "B. D. Cullity",
+  title         = "Introduction to Magnetic Materials",
+  publisher     = "Addison-Wesley",
+  address       = "Reading, MA",
+  year          = "1972"
+}
+
+
+
+
+Other examples
+
+journal article with large page numbers, IEEE will divide numbers 5 digits
+or longer into groups of three with small spaces between them. Page ranges
+can be separated via either "-" or "--", IEEEtran.bst will automatically
+convert the separator dash(es) to "--".
+Authors and/or IEEE do not always provide/use the journal number, but it
+was used in this case. IEEEtran.bst can be configured to ignore journal
+numbers if desired.
+From the August 2000 issue of "IEEE Photonics Technology Letters",
+page 1039, reference #11.
+@article{IEEEexample:articlelargepages,
+  author        = "A. Castaldini and A. Cavallini and B. Fraboni
+                   and P. Fernandez and J. Piqueras",
+  title         = "Midgap Traps Related to Compensation Processes in
+                   {CdTe} Alloys",
+  journal       = "Phys. Rev. B.",
+  volume        = "56",
+  number        = "23",
+  year          = "1997",
+  pages         = "14897-14900"
+}
+
+
+journal article with dual months
+use the BibTeX "#" concatenation operator
+From the March 2002 issue of "IEEE Transactions on Mechatronics",
+page 21, reference #8.
+@article{IEEEexample:articledualmonths,
+  author        = "Y. Okada and K. Dejima and T. Ohishi",
+  title         = "Analysis and Comparison of {PM} Synchronous Motor and
+                   Induction Motor Type Magnetic Bearings",
+  journal       = IEEE_J_IA,
+  volume        = "31",
+  month         = sep # "/" # oct,
+  year          = "1995",
+  pages         = "1047-1053"
+}
+
+
+journal article to be published as a misc entry type
+date information like month and year is optional
+However, the article form like that below may be a better approach.
+From the May 2002 issue of "IEEE Journal of Selected Areas in
+Communication", page 725, reference #3.
+@misc{IEEEexample:TBPmisc,
+  author        = "M. Coates and A. Hero and R. Nowak and B. Yu",
+  title         = "Internet Tomography",
+  howpublished  = IEEE_M_SP,
+  month         = may,
+  year          = "2002",
+  note          = "to be published"
+}
+
+
+journal article to be published as an article entry type
+year is required, so if absent, use the year field to hold
+the "submitted for publication" in order to avoid a warning for
+the missing year field.
+From the June 2002 issue of "IEEE Transactions on Information Theory",
+page 1461, reference #21.
+@article{IEEEexample:TBParticle,
+  author        = "N. Kahale and R. Urbanke",
+  title         = "On the Minimum Distance of Parallel and Serially
+                   Concatenated Codes",
+  journal       = IEEE_J_IT,
+  year          = "submitted for publication"
+}
+
+
+
+conference paper with an address and days. Some journals capitalize the
+letters in "Globecom", this one did not.
+From the May 2002 issue of "IEEE Transactions on Communications",
+page 697, reference #12.
+@inproceedings{IEEEexample:confwithadddays,
+  author        = "M. S. Yee and L. Hanzo",
+  title         = "Radial Basis Function Decision Feedback Equaliser
+                   Assisted Burst-by-burst Adaptive Modulation",
+  booktitle     = "Proc. {IEEE} Globecom '99",
+  address       = "Rio de Janeiro, Brazil",
+  month         = dec # " 5--9,",
+  year          = "1999",
+  pages         = "2183-2187"
+}
+
+
+conference paper with volume number. A conference proceedings with a vol
+number is a little uncommon, note that the vol number is placed
+before the address in the formatted bibliography entry
+From the April 2002 issue of "IEEE/ACM Transactions on Networking",
+page 181, reference #26.
+@inproceedings{IEEEexample:confwithvolume,
+  author        = "M. Yajnik and S. B. Moon and J. Kurose and D. Towsley",
+  title         = "Measurement and Modeling of the Temporal Dependence in
+                   Packet Loss",
+  booktitle     = "Proc. {IEEE} {INFOCOM}'99",
+  volume        = "1",
+  address       = "New York, NY",
+  month         = mar,
+  year          = "1999",
+  pages         = "345-352"
+}
+
+
+conference paper with a paper number, the type field can be used to
+override the word "paper", e.g., type = "postdeadline paper". A type
+can be given even without a paper  field.
+Also, IEEEtran.bst can be configured to ignore paper numbers and types.
+From the May 2002 issue of "Journal of Lightwave Technology",
+page 807, reference #4.
+@inproceedings{IEEEexample:confwithpaper,
+  author        = "M. Wegmuller and J. P. von der Weid and P. Oberson
+                   and N. Gisin",
+  title         = "High Resolution Fiber Distributed Measurements With
+                   Coherent {OFDR}",
+  booktitle     = "Proc. {ECOC}'00",
+  year          = "2000",
+  paper         = "11.3.4",
+  pages         = "109"
+}
+
+
+conference paper with a postdeadline type paper, the paper field is
+optional.
+From the August 2000 issue of "IEEE Photonics Technology Letters",
+page 1087, reference #12.
+@inproceedings{IEEEexample:confwithpapertype,
+  author        = "B. Mikkelsen and G. Raybon and R.-J. Essiambre and
+                   K. Dreyer and Y. Su. and L. E. Nelson and J. E. Johnson
+                   and G. Shtengel and A. Bond and D. G. Moodie and
+                   A. D. Ellis",
+  title         = "160 {Gbit/s} Single-channel Transmission Over 300 km
+                   Nonzero-dispersion Fiber With Semiconductor Based
+                   Transmitter and Demultiplexer",
+  booktitle     = "Proc. {ECOC}'99",
+  year          = "1999",
+  paper         = "2-3",
+  type          = "postdeadline paper",
+  pages         = "28-29"
+}
+
+
+presented at a conference
+intype overrides the default "in" and causes the booktitle not to be
+emphasized (rendered in italics).
+From the February 2002 issue of "IEEE/ACM Transactions on Networking",
+page 163, reference #6.
+@inproceedings{IEEEexample:presentedatconf,
+  author        = "S. G. Finn and M. M{\'e}dard and R. A. Barry",
+  title         = "A Novel Approach to Automatic Protection Switching
+                   Using Trees",
+  intype        = "presented at the",
+  booktitle     = "Proc. Int. Conf. Commun.",
+  year          = "1997"
+}
+
+
+
+an unpublished work
+for unpublished types, the note field is required. IEEE usually
+just uses the word "unpublished" for the note.
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 391, reference #16.
+@unpublished{IEEEexample:unpublished,
+  author        = "T. J. Ott and N. Aggarwal",
+  title         = "{TCP} over {ATM}: {ABR} or {UBR}",
+  note          = "Unpublished"
+}
+
+
+
+
+An example of a IEEEtran control entry which can change some IEEEtran.bst
+settings. An entry like this must be cited via \bstctlcite{} command
+before the first real \cite{}. The same entry key cannot be called twice
+(just like multiple \cite{} of the same entry key place only one entry
+in the bibliography.)
+The available control fields are:
+
+CTLuse_article_number
+"no" turns off the display of the number for articles.
+"yes" enables
+
+CTLuse_paper
+"no" turns off the display of the paper and type fields in inproceedings.
+"yes" enables
+
+CTLuse_forced_etal
+"no" turns off the forced use of "et al."
+"yes" enables
+
+CTLmax_names_forced_etal
+The maximum number of names that can be present beyond which an "et al."
+usage is forced. Be sure that CTLnames_show_etal (below)
+is not greater than this value!
+
+CTLnames_show_etal
+The number of names that will be shown with a forced "et al.".
+Must be less than or equal to CTLmax_names_forced_etal
+
+CTLuse_alt_spacing
+"no" turns off the alternate interword spacing for entries with URLs.
+"yes" enables
+
+CTLalt_stretch_factor
+If alternate interword spacing for entries with URLs is enabled, this is
+the interword spacing stretch factor that will be used. For example, the
+default "4" here means that the interword spacing in entries with URLs can
+stretch to four times normal. Does not have to be an integer.
+
+CTLdash_repeated_names
+"no" turns off the "dashification" of repeated (i.e., identical to those
+of the previous entry) names. IEEE normally does this.
+"yes" enables
+
+CTLname_format_string
+The name format control string as explained in the BibTeX style hacking
+guide.
+IEEE style "{f.~}{vv~}{ll}{, jj}" is the default,
+
+CTLname_latex_cmd
+A LaTeX command that each name will be fed to (e.g., "\textsc").
+Leave empty if no special font is desired for the names.
+The default is empty.
+
+CTLname_url_prefix
+The prefix text used before URLs.
+The default is "[Online]. Available:" A space will be inserted after this
+text. If this space is not wanted, just use \relax at the end of the
+prefix text.
+
+
+Those fields that are not to be changed can be left out.
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_article_number     = "yes",
+  CTLuse_paper              = "yes",
+  CTLuse_forced_etal        = "no",
+  CTLmax_names_forced_etal  = "10",
+  CTLnames_show_etal        = "1",
+  CTLuse_alt_spacing        = "yes",
+  CTLalt_stretch_factor     = "4",
+  CTLdash_repeated_names    = "yes",
+  CTLname_format_string     = "{f.~}{vv~}{ll}{, jj}",
+  CTLname_latex_cmd         = "",
+  CTLname_url_prefix        = "[Online]. Available:"
+}
+
+*************************************************************************
+
+@article{Deng2010FPGA,
+  title={{FPGA} accelerate {3D} {CT} reconstruction},
+  author={Deng, Jing Fei and Jian Xin, L. I. and Lei, L. I. and Yan, Bin},
+  journal={Application of Electronic Technique},
+  year={2010},
+}
+
+@article{Choi2016Acceleration,
+  title={Acceleration of {EM}-Based {3D} {CT} Reconstruction Using {FPGA}},
+  author={Choi, Y. K. and Cong, J.},
+  journal={IEEE Transactions on Biomedical Circuits and Systems},
+  volume={10},
+  number={3},
+  pages={754--767},
+  year={2016},
+}
+
+@article{koopman2016small,
+  title={A small voxel {FDG}-{PET}/{CT} reconstruction improves the visual evaluation of axillary lymph nodes in patients with breast cancer},
+  author={Koopman, Danielle and Dalen, Jorn and Arkies, Hester and Francken, Anne Brecht and Bart, Jos and Knollema, Siert and Slump, Cornelis and Jager, Pieter},
+  journal={Journal of Nuclear Medicine},
+  volume={57},
+  number={supplement 2},
+  pages={1502--1502},
+  year={2016},
+  publisher={Soc Nuclear Med}
+}
+
+@article{Muthusami2017CT,
+  title={{CT} reconstruction and {MRI} fusion of {3D} rotational angiography in the evaluation of pediatric cerebrovascular lesions},
+  author={Muthusami, P. and Shkumat, N. and Rea, V. and Chiu, A. H. and Shroff, M.},
+  journal={Neuroradiology},
+  volume={59},
+  number={7},
+  pages={1-9},
+  year={2017},
+}
+
+@article{Mccann2016Fast,
+  title={Fast 3D reconstruction method for differential phase contrast {X}-ray {CT}},
+  author={Mccann, M. T. and Nilchian, M and Stampanoni, M and Unser, M},
+  journal={Optics Express},
+  volume={24},
+  number={13},
+  pages={14564--14581},
+  year={2016},
+}
+
+@article{Tao1999Application,
+  title={Application of {3D} {CT} Reconstruction in Maxillofacial Surgery},
+  author={Tao, Xuejin and Yuan, Jing and Yin, Xiaorong},
+  journal={Acta Universitatis Medictnae Tangji},
+  year={1999},
+}
+
+@article{Lein2007Genome,
+  title={Genome-wide atlas of gene expression in the adult mouse brain},
+  author={Lein, E. S. and Hawrylycz, M. J. and Ao, N. and Ayres, M and Bensinger, A and Bernard, A and Boe, A. F. and Boguski, M. S. and Brockway, K. S. and Byrnes, E. J.},
+  journal={Nature},
+  volume={445},
+  number={7124},
+  pages={168-76},
+  year={2007},
+}
+
+@article{Bonev2016Organization,
+  title={Organization and function of the {3D} genome},
+  author={Bonev, B and Cavalli, G},
+  journal={Nature Reviews Genetics},
+  volume={17},
+  number={11},
+  pages={661--678},
+  year={2016},
+}
+
+@article{Tjong2016Population,
+  title={Population-based {3D} genome structure analysis reveals driving forces in spatial genome organization},
+  author={Tjong, H and Li, W. and Kalhor, R and Dai, C. and Hao, S. and Gong, K. and Zhou, Y. and Li, H. and Zhou, X. J. and Le, Gros Ma},
+  journal={Proceedings of the National Academy of Sciences of the United States of America},
+  volume={113},
+  number={12},
+  pages={E1663-72},
+  year={2016},
+}
+
+@article{Caspermeyer2017Principles,
+  title={Principles of {3D} Genome Folding and Gene Expression Studied across Species},
+  author={Caspermeyer, Joseph},
+  journal={Molecular Biology and Evolution},
+  volume={34},
+  number={6},
+  pages={1548-1548},
+  year={2017},
+}
+
+@article{Carson2002A,
+  title={A transcriptome atlas of the mouse brain at cellular resolution},
+  author={Carson, J. P. and Thaller, C and Eichele, G},
+  journal={Current Opinion in Neurobiology},
+  volume={12},
+  number={5},
+  pages={562-565},
+  year={2002},
+}
+
+@inproceedings{Ju2003A,
+  title={A geometric database for gene expression data},
+  author={Ju, T. and Warren, J and Eichele, G and Thaller, C and Chiu, W and Carson, J},
+  booktitle={Symposium on Geometry Processing},
+  pages={166-176},
+  year={2003},
+}
+
+@inproceedings{Schaefer2004Smooth,
+  title={Smooth subdivision of tetrahedral meshes},
+  author={Schaefer, S. and Hakenberg, J. and Warren, J.},
+  booktitle={Eurographics/ACM SIGGRAPH Symposium on Geometry Processing},
+  pages={147-154},
+  year={2004},
+}
+
+@article{B2014Interactive,
+  title={Interactive shape modeling using a skeleton-mesh co-representation},
+  author={Brentzen, J. Andreas and Abdrashitov, Rinat and Singh, Karan},
+  journal={ACM Transactions on Graphics},
+  volume={33},
+  number={4},
+  pages={1-10},
+  year={2014},
+}
+
+@misc{Guskov2014Non,
+  title={Non-uniform relaxation procedure for multiresolution mesh processing},
+  author={Guskov, Igor V and Schroeder, Peter and Sweldens, Wim},
+  howpublished={US patent},
+  year={2014},
+}
+
+@article{Zhang2015A,
+  title={A Scaling Method of Sensitive Objects Based on Loss Constraint Triangle Mesh Deformation},
+  author={Zhang, Yongmei and Ma, Li},
+  journal={International Journal of Image and Graphics},
+  volume={3},
+  number={2},
+  pages={77-83},
+  year={2015},
+}
+
+@article{Tao2010Subdivision,
+  title={Subdivision Meshes for Organizing Spatial Biomedical Data},
+  author={Tao, Ju and Carson, James and Liu, Lu and Warren, Joe and Bello, Musodiq and Kakadiaris, Ioannis},
+  journal={Methods},
+  volume={50},
+  number={2},
+  pages={70-76},
+  year={2010},
+}
+
+@article{Xie2015Drape,
+  title={Drape simulation using solid-shell elements and adaptive mesh subdivision},
+  author={Xie, Q. and Sze, K. Y. and Zhou, Y. X.},
+  journal={Finite Elements in Analysis and Design},
+  volume={106},
+  pages={85-102},
+  year={2015},
+}
+
+@article{Liu2014An,
+  title={An Improved Refinement Algorithm of Triangular Mesh Subdivision Based on Minimum Weight Theory},
+  author={Liu, Huai Hui},
+  journal={Applied Mechanics and Materials},
+  volume={513-517},
+  pages={2552-2555},
+  year={2014},
+}
+
+@inproceedings{Amresh2002Adaptive,
+  title={Adaptive Subdivision Schemes for Triangular Meshes},
+  author={Amresh, Ashish and Farin, Gerald and Razdan, Anshuman},
+  booktitle={Hierarchical and Geometrical Methods in Scientific Visualization},
+  pages={319--327},
+  year={2002},
+}
+
+@inproceedings{Rose2001On,
+  title={On-the-Fly Adaptive Subdivision Terrain},
+  author={Rose, Dirc and Kada, Martin and Ertl, Thomas},
+  booktitle={Vision Modeling and Visualization Conference},
+  pages={87--92},
+  year={2001},
+}
+
+@article{Kobbelt2000,
+  title={$\sqrt{3}$-subdivision},
+  author={Kobbelt, Leif},
+  journal={ACM Transactions on Graphics (SIGGRAPH)},
+  volume={18},
+  number={1},
+  pages={103--112},
+  year={2000},
+}
+
+@inproceedings{Seeger2001A,
+  title={A Sub-Atomic Subdivision Approach},
+  author={Seeger, Stephan and Kai, Hormann},
+  booktitle={Vision Modeling and Visualization Conference},
+  pages={77-86},
+  year={2001},
+}
+
+Detection of Imbalanced Vertices in 3D meshes. ICDH 2016
+
+@article{Li2008Interest,
+  title={Interest point detection using imbalance oriented selection},
+  author={Li, Qi and Ye, Jieping and Kambhamettu, Chandra},
+  journal={Pattern Recognition},
+  volume={41},
+  number={2},
+  pages={672-688},
+  year={2008},
+}
+
+@article{Loop1987Smooth,
+  title={Smooth Subdivision Surfaces Based on Triangles},
+  author={Loop, Charles Teorell.},
+  journal={Department of Mathematics the University of Utah Masters Thesis},
+  year={1987},
+}
+
+@article{Catmull1978Recursively,
+  title={Recursively generated {B}-spline surfaces on arbitrary topological meshes},
+  author={Catmull, E and Clark, J},
+  journal={Computer-Aided Design},
+  volume={10},
+  number={6},
+  pages={350-355},
+  year={1978},
+}
+
+@inproceedings{Zorin1996Interpolating,
+  title={Interpolating Subdivision for Meshes with Arbitrary Topology},
+  author={Zorin, Denis and Schroder, Peter and Sweldens, Wim},
+  booktitle={ACM SIGGRAPH},
+  pages={189-192},
+  year={1996},
+}

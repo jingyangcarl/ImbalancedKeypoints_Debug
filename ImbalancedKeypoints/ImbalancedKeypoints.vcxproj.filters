@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{cd817115-7668-469f-a871-d2adc945e9bf}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ce9c6a23-a3a6-4672-bfcc-1b08a7ed13be}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\QTFrameWork">
+      <UniqueIdentifier>{96118a0d-d2c6-47a6-9f7d-b783f72b0904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QTFrameWork">
+      <UniqueIdentifier>{59fbb9a4-1e21-4a5b-985e-34670196e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InstructionProcessor">
+      <UniqueIdentifier>{4e0e405e-87a3-42e5-9540-f8433161565f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QTInstructionSlotFunction">
+      <UniqueIdentifier>{6f135d5e-c56f-4dc5-96f6-282bd7cc7ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InstructionProcessor">
+      <UniqueIdentifier>{c47c8775-528e-42d6-b962-2eda509ed015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileLoader">
+      <UniqueIdentifier>{dfd168e9-09ca-4590-84ac-b3f4a27db61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ReturnMsgProcess">
+      <UniqueIdentifier>{0d3ade91-4d97-4708-b9f3-cef47a028938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImbalancedKeypoints.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImbalancedKeypoints.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_ImbalancedKeypoints.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSynchronization.cpp">
+      <Filter>Source Files\QTFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="EventFilter.cpp">
+      <Filter>Source Files\QTFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstructionProcessor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstructionProcessor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeshLoader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeshLoader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PointPickup.cpp">
+      <Filter>Source Files\QTFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionProcessor.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionProcessorAppend.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsg.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChange.cpp">
+      <Filter>Source Files\QTInstructionSlotFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files\QTInstructionSlotFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="GetStatus.cpp">
+      <Filter>Source Files\QTInstructionSlotFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadData.cpp">
+      <Filter>Source Files\QTInstructionSlotFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialization.cpp">
+      <Filter>Source Files\QTInstructionSlotFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotFunction.cpp">
+      <Filter>Source Files\QTInstructionSlotFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudLoader.cpp">
+      <Filter>Source Files\FileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Source Files\FileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionProcess.cpp">
+      <Filter>Source Files\QTFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryExit.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryClear.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryInit.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryLoad.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryConnect.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryShowStatus.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryChangeColor.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryDetect.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategorySubdivide.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryMeshSurfaceFit.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryCellular.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionCategoryMatch.cpp">
+      <Filter>Source Files\InstructionProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgProcess.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryExit.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryUnknown.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryUserDefine.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryRerror.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryTest.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryClear.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryInit.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryLoad.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryConnect.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryShowStatus.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryChangeColor.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryDetect.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategorySubdivide.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryMeshSurfaceFit.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryCellular.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnMsgCategoryMatch.cpp">
+      <Filter>Source Files\ReturnMsgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ImbalancedKeypoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ImbalancedKeypoints.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImbalancedKeypoints.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeshLoader.h">
+      <Filter>Header Files\QTFrameWork</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InstructionProcessor.h">
+      <Filter>Header Files\InstructionProcessor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CloudLoader.h">
+      <Filter>Header Files\QTFrameWork</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImbalancedKeypoints.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_ImbalancedKeypoints.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnMsg.h">
+      <Filter>Header Files\InstructionProcessor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

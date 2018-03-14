@@ -1,0 +1,58 @@
+-------------------------------------------
+-------------------------------------------
+Environment
+-------------------------------------
+Operating System: 
+	Windows 10 x64
+-------------------------------------
+IDE: 
+	Microsoft Visual Studio 2015
+-------------------------------------
+Library: 
+	Qt 5.6.2
+	VTK 7.0.0 - debug version
+	PCL 1.8.0
+	OpenMesh 6.3
+	Boost 1.6.1
+	Eigen 3
+
+-------------------------------------------
+-------------------------------------------
+Project Library: 
+-------------------------------------
+Main Project (ImbalancedKeypoints) Library:
+	Qt 5.6.2
+	OpenMesh 6.3
+	VTK 7.0.0 - debug version
+	PCL 1.8.0
+	Eigen 3
+	Boost 1.6.1
+-------------------------------------
+Subproject (CellularAutomaton) Library:
+	Qt 5.6.2
+	PCL 1.8.0
+-------------------------------------
+Subproject (ImbDetector) Library:
+	Qt 5.6.2
+	OpenMesh 6.3
+-------------------------------------
+Subproject (MeshMatcher) Library:
+	Qt 5.6.2
+	OpenMesh 6.3
+-------------------------------------
+Subproject (MeshSubdivisor) Library:
+	Qt 5.6.2
+	OpenMesh 6.3
+	Eigen 3
+-------------------------------------
+Subproject (MeshSurfaceFitter) Library:
+	Qt 5.6.2
+	OpenMesh 6.3
+	PCL 1.8.0
+	Eigen 3
+	Boost 1.6.1
+-------------------------------------
+Subproject (ImbDetector) Library:
+	Qt 5.6.2
+	OpenMesh 6.3
+-------------------------------------	

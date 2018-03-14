@@ -1,0 +1,266 @@
+﻿  MeshSurfaceFitter.cpp
+C:\PCL 1.8.0\include\pcl-1.8\pcl/pcl_macros.h(72): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+  C:\PCL 1.8.0\include\pcl-1.8\pcl/pcl_macros.h(72): note: 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+C:\PCL 1.8.0\include\pcl-1.8\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(110): warning C4996: 'std::inner_product::_Unchecked_iterators::_Deprecate': Call to 'std::inner_product' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(110): note: 参见“std::inner_product::_Unchecked_iterators::_Deprecate”的声明
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(139): note: 参见对正在编译的函数 模板 实例化“_Ty std::inner_product<_InIt1,_InIt2,_Ty,std::plus<void>,std::multiplies<void>>(_InIt1,_InIt1,_InIt2,_Ty,_Fn21,_Fn22)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt1=const float *,
+              _InIt2=const float *,
+              _Fn21=std::plus<void>,
+              _Fn22=std::multiplies<void>
+          ]
+  c:\openmesh 6.3\include\openmesh\core\geometry\Vector11T.hh(386): note: 参见对正在编译的函数 模板 实例化“_Ty std::inner_product<const Scalar*,const Scalar*,Scalar>(_InIt1,_InIt1,_InIt2,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              Scalar=float,
+              _InIt1=const float *,
+              _InIt2=const float *
+          ]
+  c:\openmesh 6.3\include\openmesh\core\geometry\Vector11T.hh(700): note: 参见对正在编译的函数 模板 实例化“Scalar OpenMesh::VectorT<Scalar,3>::operator |<float>(const OpenMesh::VectorT<Scalar,3> &) const”的引用
+          with
+          [
+              Scalar=float
+          ]
+  c:\openmesh 6.3\include\openmesh\core\geometry\Vector11T.hh(700): note: 参见对正在编译的函数 模板 实例化“Scalar OpenMesh::VectorT<Scalar,3>::operator |<float>(const OpenMesh::VectorT<Scalar,3> &) const”的引用
+          with
+          [
+              Scalar=float
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\PolyMeshT.cc(365): note: 参见对正在编译的函数 模板 实例化“Scalar OpenMesh::dot<float,3>(const OpenMesh::VectorT<Scalar,3> &,const OpenMesh::VectorT<Scalar,3> &)”的引用
+          with
+          [
+              Scalar=float
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\PolyMeshT.cc(345): note: 编译类 模板 成员函数“bool OpenMesh::PolyMeshT<Kernel>::is_estimated_feature_edge(OpenMesh::HalfedgeHandle,const double) const”时
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<MeshSurfaceFitter::Traits,true>,OpenMesh::TriConnectivity>
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\PolyMeshT.cc(302): note: 参见对正在编译的函数 模板 实例化“bool OpenMesh::PolyMeshT<Kernel>::is_estimated_feature_edge(OpenMesh::HalfedgeHandle,const double) const”的引用
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<MeshSurfaceFitter::Traits,true>,OpenMesh::TriConnectivity>
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\TriMeshT.cc(80): note: 编译类 模板 成员函数“OpenMesh::VectorT<float,3> OpenMesh::TriMeshT<OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<Traits,true>,OpenMesh::TriConnectivity>>::calc_face_normal(OpenMesh::FaceHandle) const”时
+          with
+          [
+              Traits=MeshSurfaceFitter::Traits
+          ]
+  C:\OpenMesh 6.3\include\OpenMesh\Core\Mesh\TriMesh_ArrayKernelT.hh(100): note: 参见对正在编译的类 模板 实例化“OpenMesh::TriMeshT<OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<Traits,true>,OpenMesh::TriConnectivity>>”的引用
+          with
+          [
+              Traits=MeshSurfaceFitter::Traits
+          ]
+  h:\c++workspace\imbalancedkeypoints\meshsurfacefitter\MeshSurfaceFitter.h(35): note: 参见对正在编译的类 模板 实例化“OpenMesh::TriMesh_ArrayKernelT<MeshSurfaceFitter::Traits>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): warning C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): note: 参见“std::uninitialized_copy::_Unchecked_iterators::_Deprecate”的声明
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(191): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(204): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(203): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(296): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(296): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(294): note: 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)”时
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(302): note: 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(53): note: 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(55): note: 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+  MeshSurfaceFitterAppend.cpp
+C:\PCL 1.8.0\include\pcl-1.8\pcl/pcl_macros.h(72): warning C4005: “_USE_MATH_DEFINES”: 宏重定义
+  C:\PCL 1.8.0\include\pcl-1.8\pcl/pcl_macros.h(72): note: 命令行参数: 参见前面的“_USE_MATH_DEFINES”定义
+C:\PCL 1.8.0\include\pcl-1.8\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(110): warning C4996: 'std::inner_product::_Unchecked_iterators::_Deprecate': Call to 'std::inner_product' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(110): note: 参见“std::inner_product::_Unchecked_iterators::_Deprecate”的声明
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(139): note: 参见对正在编译的函数 模板 实例化“_Ty std::inner_product<_InIt1,_InIt2,_Ty,std::plus<void>,std::multiplies<void>>(_InIt1,_InIt1,_InIt2,_Ty,_Fn21,_Fn22)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt1=const float *,
+              _InIt2=const float *,
+              _Fn21=std::plus<void>,
+              _Fn22=std::multiplies<void>
+          ]
+  c:\openmesh 6.3\include\openmesh\core\geometry\Vector11T.hh(386): note: 参见对正在编译的函数 模板 实例化“_Ty std::inner_product<const Scalar*,const Scalar*,Scalar>(_InIt1,_InIt1,_InIt2,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              Scalar=float,
+              _InIt1=const float *,
+              _InIt2=const float *
+          ]
+  c:\openmesh 6.3\include\openmesh\core\geometry\Vector11T.hh(700): note: 参见对正在编译的函数 模板 实例化“Scalar OpenMesh::VectorT<Scalar,3>::operator |<float>(const OpenMesh::VectorT<Scalar,3> &) const”的引用
+          with
+          [
+              Scalar=float
+          ]
+  c:\openmesh 6.3\include\openmesh\core\geometry\Vector11T.hh(700): note: 参见对正在编译的函数 模板 实例化“Scalar OpenMesh::VectorT<Scalar,3>::operator |<float>(const OpenMesh::VectorT<Scalar,3> &) const”的引用
+          with
+          [
+              Scalar=float
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\PolyMeshT.cc(365): note: 参见对正在编译的函数 模板 实例化“Scalar OpenMesh::dot<float,3>(const OpenMesh::VectorT<Scalar,3> &,const OpenMesh::VectorT<Scalar,3> &)”的引用
+          with
+          [
+              Scalar=float
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\PolyMeshT.cc(345): note: 编译类 模板 成员函数“bool OpenMesh::PolyMeshT<Kernel>::is_estimated_feature_edge(OpenMesh::HalfedgeHandle,const double) const”时
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<MeshSurfaceFitter::Traits,true>,OpenMesh::TriConnectivity>
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\PolyMeshT.cc(302): note: 参见对正在编译的函数 模板 实例化“bool OpenMesh::PolyMeshT<Kernel>::is_estimated_feature_edge(OpenMesh::HalfedgeHandle,const double) const”的引用
+          with
+          [
+              Kernel=OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<MeshSurfaceFitter::Traits,true>,OpenMesh::TriConnectivity>
+          ]
+  c:\openmesh 6.3\include\openmesh\core\mesh\TriMeshT.cc(80): note: 编译类 模板 成员函数“OpenMesh::VectorT<float,3> OpenMesh::TriMeshT<OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<Traits,true>,OpenMesh::TriConnectivity>>::calc_face_normal(OpenMesh::FaceHandle) const”时
+          with
+          [
+              Traits=MeshSurfaceFitter::Traits
+          ]
+  C:\OpenMesh 6.3\include\OpenMesh\Core\Mesh\TriMesh_ArrayKernelT.hh(100): note: 参见对正在编译的类 模板 实例化“OpenMesh::TriMeshT<OpenMesh::AttribKernelT<OpenMesh::FinalMeshItemsT<Traits,true>,OpenMesh::TriConnectivity>>”的引用
+          with
+          [
+              Traits=MeshSurfaceFitter::Traits
+          ]
+  h:\c++workspace\imbalancedkeypoints\meshsurfacefitter\MeshSurfaceFitter.h(35): note: 参见对正在编译的类 模板 实例化“OpenMesh::TriMesh_ArrayKernelT<MeshSurfaceFitter::Traits>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): warning C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): note: 参见“std::uninitialized_copy::_Unchecked_iterators::_Deprecate”的声明
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(191): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(204): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(203): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(296): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(296): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(294): note: 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)”时
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(302): note: 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(53): note: 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(55): note: 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+  正在生成代码...
+h:\c++workspace\imbalancedkeypoints\meshsurfacefitter\meshsurfacefitter.cpp(48): warning C4715: “MeshSurfaceFitter::OneRingFitting”: 不是所有的控件路径都返回值
+    正在创建库 H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\MeshSurfaceFitter.lib 和对象 H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\MeshSurfaceFitter.exp
+OpenMeshCored.lib(BinaryHelper.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(BinaryHelper.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(IOManager.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(IOManager.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OMFormat.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OMFormat.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BaseReader.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(BaseReader.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OBJReader.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OBJReader.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OFFReader.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OFFReader.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OMReader.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OMReader.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PLYReader.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(PLYReader.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(STLReader.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(STLReader.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BaseWriter.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(BaseWriter.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OBJWriter.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OBJWriter.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OFFWriter.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OFFWriter.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OMWriter.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(OMWriter.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PLYWriter.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(PLYWriter.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(STLWriter.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(STLWriter.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(ArrayKernel.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(ArrayKernel.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PolyConnectivity.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(PolyConnectivity.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(TriConnectivity.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(TriConnectivity.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(omstream.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(omstream.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BaseProperty.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(BaseProperty.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(Endian.obj) : warning LNK4099: 未找到 PDB“OpenMeshCore.pdb”(使用“OpenMeshCored.lib(Endian.obj)”或在“H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\OpenMeshCore.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  MeshSurfaceFitter.vcxproj -> H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\MeshSurfaceFitter.dll
+  MeshSurfaceFitter.vcxproj -> H:\C++WorkSpace\ImbalancedKeypoints\x64\Debug\MeshSurfaceFitter.pdb (Full PDB)

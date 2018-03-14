@@ -1,0 +1,19 @@
+﻿  CameraSynchronization.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  Connection.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  EventFilter.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  moc_ImbalancedKeypoints.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  ImbalancedKeypoints.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  Initialization.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  LoadData.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  main.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  SlotFunction.cpp
+.\GeneratedFiles\ui_ImbalancedKeypoints.h(25): fatal error C1083: 无法打开包括文件: “QVTKWidget.h”: No such file or directory
+  正在生成代码...

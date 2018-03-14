@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImbalancedKeypoints", "ImbalancedKeypoints\ImbalancedKeypoints.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImbDetector", "ImbDetector\ImbDetector.vcxproj", "{D19C47C7-A0B5-4257-AF2B-9D8E2FD2C326}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeshSubdivisor", "MeshSubdivisor\MeshSubdivisor.vcxproj", "{883A6F1A-AAB5-413B-A568-65C622D084C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CellularAutomaton", "CellularAutomaton\CellularAutomaton.vcxproj", "{67A03D32-28A8-4F6D-A4F9-BBA14DB56D57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeshSurfaceFitter", "MeshSurfaceFitter\MeshSurfaceFitter.vcxproj", "{C34D7154-6113-43DE-BCD9-4B5EEBF6F78B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeshMatcher", "MeshMatcher\MeshMatcher.vcxproj", "{04318EE7-B5F0-4AEF-B049-DD0C96558EF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{D19C47C7-A0B5-4257-AF2B-9D8E2FD2C326}.Debug|x64.ActiveCfg = Debug|x64
+		{D19C47C7-A0B5-4257-AF2B-9D8E2FD2C326}.Debug|x64.Build.0 = Debug|x64
+		{D19C47C7-A0B5-4257-AF2B-9D8E2FD2C326}.Release|x64.ActiveCfg = Release|x64
+		{D19C47C7-A0B5-4257-AF2B-9D8E2FD2C326}.Release|x64.Build.0 = Release|x64
+		{883A6F1A-AAB5-413B-A568-65C622D084C5}.Debug|x64.ActiveCfg = Debug|x64
+		{883A6F1A-AAB5-413B-A568-65C622D084C5}.Debug|x64.Build.0 = Debug|x64
+		{883A6F1A-AAB5-413B-A568-65C622D084C5}.Release|x64.ActiveCfg = Release|x64
+		{883A6F1A-AAB5-413B-A568-65C622D084C5}.Release|x64.Build.0 = Release|x64
+		{67A03D32-28A8-4F6D-A4F9-BBA14DB56D57}.Debug|x64.ActiveCfg = Debug|x64
+		{67A03D32-28A8-4F6D-A4F9-BBA14DB56D57}.Debug|x64.Build.0 = Debug|x64
+		{67A03D32-28A8-4F6D-A4F9-BBA14DB56D57}.Release|x64.ActiveCfg = Release|x64
+		{67A03D32-28A8-4F6D-A4F9-BBA14DB56D57}.Release|x64.Build.0 = Release|x64
+		{C34D7154-6113-43DE-BCD9-4B5EEBF6F78B}.Debug|x64.ActiveCfg = Debug|x64
+		{C34D7154-6113-43DE-BCD9-4B5EEBF6F78B}.Debug|x64.Build.0 = Debug|x64
+		{C34D7154-6113-43DE-BCD9-4B5EEBF6F78B}.Release|x64.ActiveCfg = Release|x64
+		{C34D7154-6113-43DE-BCD9-4B5EEBF6F78B}.Release|x64.Build.0 = Release|x64
+		{04318EE7-B5F0-4AEF-B049-DD0C96558EF8}.Debug|x64.ActiveCfg = Debug|x64
+		{04318EE7-B5F0-4AEF-B049-DD0C96558EF8}.Debug|x64.Build.0 = Debug|x64
+		{04318EE7-B5F0-4AEF-B049-DD0C96558EF8}.Release|x64.ActiveCfg = Release|x64
+		{04318EE7-B5F0-4AEF-B049-DD0C96558EF8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

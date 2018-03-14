@@ -1,0 +1,125 @@
+\relax 
+\citation{Choi2016Acceleration,koopman2016small,Muthusami2017CT,Mccann2016Fast}
+\citation{Tao1999Application}
+\citation{Lein2007Genome,Bonev2016Organization,Tjong2016Population,Caspermeyer2017Principles}
+\citation{Carson2002A}
+\citation{Ju2003A,Schaefer2004Smooth}
+\citation{B2014Interactive,Guskov2014Non,Zhang2015A}
+\citation{Tao2010Subdivision}
+\citation{Tao2010Subdivision}
+\citation{Tao2010Subdivision}
+\citation{Zorin1996Interpolating}
+\citation{Loop1987Smooth}
+\citation{Catmull1978Recursively}
+\citation{Xie2015Drape}
+\citation{Liu2014An}
+\citation{Amresh2002Adaptive}
+\citation{Rose2001On}
+\citation{Kobbelt2000}
+\citation{Seeger2001A}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Coupling Modules of Subdivision Framework: Fundamental Subalgorithms}{1}}
+\newlabel{Section:Fundamental Subalgorithms}{{II}{1}}
+\citation{Li2008Interest}
+\citation{Li2008Interest}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Demonstration of different subdivision methods. a) Original Mesh. b) Butterfly Subdivision. c) Loop Subdivision. d) Catmull Subdivision. e) Edge Feature Preserved Mesh Subdivision (implementation of our framework's core module). All subdivision algorithms have been applied five iterations on original mesh.\relax }}{2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{Figure_EFPMS}{{1}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Original}}}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Butterfly}}}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Loop}}}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Catmull}}}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {EFPMS}}}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Imbalanced Keypoint Detection}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Illustration of imbalance selection. After projecting face normals around vertex on its tangent plane, projected normals (suppose 8 directions) are sorted in terms of their magnitudes. Left: balanced edge point, where index of maximum difference is 4. Right: imbalanced edge point, where that is 2.\relax }}{2}}
+\newlabel{Figure_Imbalanced_Keypoint_Selection}{{2}{2}}
+\newlabel{Equation_MaxDiff}{{1}{2}}
+\newlabel{Equation_D}{{2}{2}}
+\citation{Loop1987Smooth}
+\newlabel{Equation_IMB}{{3}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Imbalanced keypoints on footbone mesh with white points representing normal points and red for imbalanced points. Left: model view. Right: mesh view.\relax }}{3}}
+\newlabel{Figure_Keypoints}{{3}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Edge Feature Preserved Mesh Subdivision}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Linear one to four subdivision for triangulars.\relax }}{3}}
+\newlabel{Figure_Linear_Subdivision}{{4}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces One-ring vertices derivative.\relax }}{3}}
+\newlabel{Figure_OneRing_Vertices_Derivative}{{5}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces One-ring neighbor weighted centroid method.\relax }}{3}}
+\newlabel{Figure_Weighted_Centroid}{{6}{3}}
+\newlabel{Equation_beta}{{4}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Model-dependent Wavelike Noise Elimination}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Unit of edge point generator (left). Feature Preserved Mesh Subdivision edge point generator (middle). Smoothness-focused Mesh Subdivision edge point generator (right). Weight of vertices in each generator are tagged aside its position.\relax }}{4}}
+\newlabel{Figure_Edge_Point_Generator}{{7}{4}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Edge Feature Preserved Mesh Subdivision\relax }}{4}}
+\newlabel{Algorithm_EFPMS}{{1}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces a) Model-dependent wavelike noise. b) Removing wavelike noise by Smoothness-focused Mesh Subdivision. All subdivision algorithms have been applied five iterations on original meshes.\relax }}{4}}
+\newlabel{Figure_Noise}{{8}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Feature Preserved Mesh Subdivision Framework}{4}}
+\newlabel{Section:Keypoint based Feature Preserved Mesh Subdivision Scheme}{{III}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Subdivision Comparison on phalangeals with iteration increasing by rows. a) Butterfly Method. b) Catmull Method. c) Loop Method. d) Edge Feature Preserved Mesh Subdivision. e) Smoothness-focused Mesh Subdivision. f) Feature Preserved Mesh Subdivision.\relax }}{5}}
+\newlabel{Figure_KFPMS_1}{{9}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Butterfly}}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Catmull}}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Loop}}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {EFPMS}}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {SMS}}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {FPMS}}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Subdivision Comparison on human footbone with iteration increasing by rows. a) Butterfly Method. b) Catmull Method. c) Loop Method. d) Edge Feature Preserved Mesh Subdivision. e) Smoothness-focused Mesh Subdivision. f) Feature Preserved Mesh Subdivision.\relax }}{6}}
+\newlabel{Figure_KFPMS_2}{{10}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Butterfly}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Catmull}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Loop}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {EFPMS}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {SMS}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {FPMS}}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Subdivision Comparison on metatarsal bones and entocuneiforms with iteration increasing by rows. a) Butterfly Method. b) Catmull Method. c) Loop Method. d) Edge Feature Preserved Mesh Subdivision. e) Smoothness-focused Mesh Subdivision. f) Feature Preserved Mesh Subdivision.\relax }}{6}}
+\newlabel{Figure_KFPMS_3}{{11}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Butterfly}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Catmull}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Loop}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {EFPMS}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {SMS}}}{6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {FPMS}}}{6}}
+\bibstyle{IEEEtran}
+\bibdata{bibe_final}
+\bibcite{Choi2016Acceleration}{1}
+\bibcite{koopman2016small}{2}
+\newlabel{Equation_W_G_EFPMS}{{5}{7}}
+\newlabel{Equation_W_G_SMS}{{6}{7}}
+\newlabel{Equation_Key}{{7}{7}}
+\newlabel{Equation_G}{{8}{7}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Feature Preserved Mesh Subdivision\relax }}{7}}
+\newlabel{Algorithm_FPMS}{{2}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments}{7}}
+\newlabel{Section:Experiment}{{IV}{7}}
+\newlabel{Equation_V}{{9}{7}}
+\newlabel{Equation_F}{{10}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{7}}
+\newlabel{Section:Conclusion}{{V}{7}}
+\bibcite{Muthusami2017CT}{3}
+\bibcite{Mccann2016Fast}{4}
+\bibcite{Tao1999Application}{5}
+\bibcite{Lein2007Genome}{6}
+\bibcite{Bonev2016Organization}{7}
+\bibcite{Tjong2016Population}{8}
+\bibcite{Caspermeyer2017Principles}{9}
+\bibcite{Carson2002A}{10}
+\bibcite{Ju2003A}{11}
+\bibcite{Schaefer2004Smooth}{12}
+\bibcite{B2014Interactive}{13}
+\bibcite{Guskov2014Non}{14}
+\bibcite{Zhang2015A}{15}
+\bibcite{Tao2010Subdivision}{16}
+\bibcite{Zorin1996Interpolating}{17}
+\bibcite{Loop1987Smooth}{18}
+\bibcite{Catmull1978Recursively}{19}
+\bibcite{Xie2015Drape}{20}
+\bibcite{Liu2014An}{21}
+\bibcite{Amresh2002Adaptive}{22}
+\bibcite{Rose2001On}{23}
+\bibcite{Kobbelt2000}{24}
+\bibcite{Seeger2001A}{25}
+\bibcite{Li2008Interest}{26}
+\@writefile{toc}{\contentsline {section}{References}{8}}
